@@ -1,0 +1,10 @@
+<nav class="text-white sticky top-0 bg-slate-800 h-16 flex justify-between items-center px-7">
+    <div class="mx-3 hover:text-red-500"><a routerLink="/" routerLinkActive="active">Andrii Liashenko</a></div>
+    <div class="flex justify-around ">
+        <div class="mx-3 hover:text-cyan-500"><a routerLink="/News" routerLinkActive="active">News</a></div>
+        <div class="mx-3 hover:text-cyan-500"><a routerLink="/Profile" routerLinkActive="active">Profile</a></div>
+        <div class="mx-3 hover:text-red-500" onClick="Logout()"><a routerLink="/Login" routerLinkActive="active">Log out</a></div>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
